@@ -3,23 +3,8 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-.title {
-    text-align: center;
-    position: relative;
-}
-
 #title {
-    position: relative;
-}
-
-#torchLeft {
-    position: absolute;
-    left: 400px;
-}
-
-#torchRight {
-    position: absolute;
-    right: 405px;
+    text-align: center;
 }
 
 .tiers {
