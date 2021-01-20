@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    font-family: Verdana, sans-serif;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+}
+
+#title {
+    position: relative;
+}
+
+#torchLeft {
+    position: absolute;
+    left: 400px;
+}
+
+#torchRight {
+    position: absolute;
+    right: 405px;
+}
+
+.tiers {
+    text-align: center;
+}
+
+.tiers img {
+    width: 300px;
+    outline-offset: -5px;
+}
+
+#tier4 {
+    outline: 5px solid orangered;
+}
+
+#tier3, #tier2, #tier1 {
+    outline: 5px solid transparent;
+}
+
+.filters {
+    text-align: center;
+    color: white;
+}
+
+.logodiv {
+    text-align: center;
+}
+
+.logos {
+    display: inline-block;
+    color: white;
+}
+
+.logos img {
+    width: 200px;
+    height: 129px;
+}
