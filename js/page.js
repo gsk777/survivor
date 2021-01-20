@@ -27,26 +27,26 @@ let tiers = new Map();
 tiers.set(1, {
     element: tierOneButton,
     checked: false,
-    imageOn: "images/Tier One.png",
-    imageOff: "images/Tier One Fade.png",
+    imageOn: "https://i.postimg.cc/pXfzMZ18/Tier-One.png",
+    imageOff: "https://i.postimg.cc/rwqWVrvH/Tier-One-Fade.png",
 });
 tiers.set(2, {
     element: tierTwoButton,
     checked: false,
-    imageOn: "images/Tier Two.png",
-    imageOff: "images/Tier Two Fade.png",
+    imageOn: "https://i.postimg.cc/jSkjpnKP/Tier-Two.png",
+    imageOff: "https://i.postimg.cc/43DxdCY3/Tier-Two-Fade.png",
 });
 tiers.set(3, {
     element: tierThreeButton,
     checked: false,
-    imageOn: "images/Tier Three.png",
-    imageOff: "images/Tier Three Fade.png",
+    imageOn: "https://i.postimg.cc/Z5qRsxkJ/Tier-Three.png",
+    imageOff: "https://i.postimg.cc/SK2KkQN5/Tier-Three-Fade.png",
 });
 tiers.set(4, {
     element: tierFourButton,
     checked: true,
-    imageOn: "images/Tier Four.png",
-    imageOff: "images/Tier Four Fade.png",
+    imageOn: "https://i.postimg.cc/MK2VL4tq/Tier-Four.png",
+    imageOff: "https://i.postimg.cc/pV7nFS3K/Tier-Four-Fade.png",
 });
 
 function tierToggle(selected) {
