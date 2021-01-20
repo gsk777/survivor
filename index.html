@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survivor Selector</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" type="image/png" href="images/Torch.png">
+</head>
+
+<body>
+    <br/>
+    <div class="title">
+        <img id="title" src="images/Title.png" width="1000">
+        <img id="torchLeft" src="images/Torch.png" width="25">
+        <img id="torchRight" src="images/Torch.png" width="25">
+    </div>
+    <!--Buttons/Inputs-->
+    <div class="tiers">
+        <img id="tier4" src="images/Tier Four.png" onclick="tierToggle(4)"></button>
+        <img id="tier3" src="images/Tier Three Fade.png" onclick="tierToggle(3)"></button>
+        <img id="tier2" src="images/Tier Two Fade.png" onclick="tierToggle(2)"></button>
+        <img id="tier1" src="images/Tier One Fade.png" onclick="tierToggle(1)"></button>
+    </div>
+    <div class="filters">
+        <div>
+            <h2>Cast Type</h2>
+            <label><input type="checkbox" checked="true" name="newbie" onclick="castTypeToggle('newbie', newbieBox)">All Newbie</label>
+            <label><input type="checkbox" checked="true" name="returnee" onclick="castTypeToggle('returnee', returneeBox)">All Returnee</label>
+            <label><input type="checkbox" checked="true" name="mixed" onclick="castTypeToggle('mixed', mixedBox)">Mixed</label>
+        </div>
+        <br/>
+        <div>
+            <h2>Final Tribal</h2>
+            <label><input type="checkbox" checked="true" name="finaltwo" onclick="finalTribalToggle(2, finalTwoBox)">Final 2</label>
+            <label><input type="checkbox" checked="true" name="finalthree" onclick="finalTribalToggle(3, finalThreeBox)">Final 3</label>
+        </div>
+    </div><br/><hr>
+    <!--Images-->
+    <div class="logodiv">
+        <br/>
+        <div id="s1" class="logos">
+            <img src="images/Borneo.png"/>
+            <h3>S1 Borneo</h3>
+        </div>
+        <div id="s2" class="logos">
+            <img src="images/Australia.png"/>
+            <h3>S2 Australia</h3>
+        </div>
+        <div id="s3" class="logos">
+            <img src="images/Africa.png"/>
+            <h3>S3 Africa</h3>
+        </div>
+        <div id="s4" class="logos">
+            <img src="images/Marquesas.png"/>
+            <h3>S4 Marquesas</h3>
+        </div>
+        <div id="s5" class="logos">
+            <img src="images/Thailand.png"/>
+            <h3>S5 Thailand</h3>
+        </div>
+        <div id="s6" class="logos">
+            <img src="images/Amazon.png"/>
+            <h3>S6 Amazon</h3>
+        </div>
+        <div id="s7" class="logos">
+            <img src="images/Pearl Islands.png"/>
+            <h3>S7 Pearl Islands</h3>
+        </div>
+        <div id="s8" class="logos">
+            <img src="images/All-Stars.png"/>
+            <h3>S8 All-Stars</h3>
+        </div>
+        <div id="s9" class="logos">
+            <img src="images/Vanuatu.png"/>
+            <h3>S9 Vanuatu</h3>
+        </div>
+        <div id="s10" class="logos">
+            <img src="images/Palau.png"/>
+            <h3>S10 Palau</h3>
+        </div>
+        <div id="s11" class="logos">
+            <img src="images/Guatemala.png"/>
+            <h3>S11 Guatemala</h3>
+        </div>
+        <div id="s12" class="logos">
+            <img src="images/Panama.png"/>
+            <h3>S12 Panama</h3>
+        </div>
+        <div id="s13" class="logos">
+            <img src="images/Cook Islands.png"/>
+            <h3>S13 Cook Islands</h3>
+        </div>
+        <div id="s14" class="logos">
+            <img src="images/Fiji.png"/>
+            <h3>S14 Fiji</h3>
+        </div>
+        <div id="s15" class="logos">
+            <img src="images/China.png"/>
+            <h3>S15 China</h3>
+        </div>
+        <div id="s16" class="logos">
+            <img src="images/Micronesia.png"/>
+            <h3>S16 Micronesia</h3>
+        </div>
+        <div id="s17" class="logos">
+            <img src="images/Gabon.png"/>
+            <h3>S17 Gabon</h3>
+        </div>
+        <div id="s18" class="logos">
+            <img src="images/Tocantins.png"/>
+            <h3>S18 Tocantins</h3>
+        </div>
+        <div id="s19" class="logos">
+            <img src="images/Samoa.png"/>
+            <h3>S19 Samoa</h3>
+        </div>
+        <div id="s20" class="logos">
+            <img src="images/HeroesVillians.png"/>
+            <h3>S20 Heroes v Villians</h3>
+        </div>
+    </div>
+    <!--JS-->
+    <script src="js/data.js"></script>
+    <script src="js/page.js"></script>
+</body>
+</html>
